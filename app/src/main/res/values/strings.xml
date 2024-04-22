@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="welcome_to_fiore_science">Welcome to Fiore Science</string>
+    <string name="fiore_science">Welcome to Fiore Science</string>
+    <string name="sat" />
+    <string name="fri" />
+</resources>
