@@ -20,7 +20,7 @@
             android:layout_weight="1"
             android:text = "<-"
             android:textColor="@color/blue"
-            android:background="@null"
+            android:background="@color/white"
             android:textStyle="bold"
             android:onClick="previousMonthAction"
             android:textSize="20sp" />
