@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "83484159137",
+    "project_id": "signuppage-34fc4",
+    "storage_bucket": "signuppage-34fc4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83484159137:android:f9410b4451509fffca14e0",
+        "android_client_info": {
+          "package_name": "com.example.signuppage"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlHcGtYePf68PMD_YmfKvRYfWot1DMdJo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
