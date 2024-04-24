@@ -54,14 +54,22 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/resources"
-                    android:background="#"/>
-
-                    <TextView
+                    android:background="#FFFFFF"
+                    android:contentDescription="@string/todo" />
+                         <Button
+                         android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                            android:background="#000000"
+                            android:text = "@string/go"
+                             android:onClick="OpenResources"
+                             android:textColor="#FFFFFF" />
+                <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="RESOURCES"
+                        android:text="@string/resources"
                         android:textStyle="bold"
                         android:textAlignment="center"/>
+
             </LinearLayout>
 </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
@@ -85,12 +93,18 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/todo"/>
-
+                    android:src="@drawable/todo"
+                    android:contentDescription="@string/todo" />
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/go"
+                            android:textColor="#FFFFFF"
+                            android:background="#FFFFFF"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="TO-DO LIST"
+                    android:text="@string/to_do_list"
                     android:textStyle="bold"
                     android:textAlignment="center"/>
             </LinearLayout>
@@ -116,12 +130,19 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/calendar"/>
-
+                    android:src="@drawable/calendar"
+                    android:contentDescription="@string/todo" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:onClick="OpenCalendar"
+                    android:text="@string/go"
+                    />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="CALENDAR"
+                    android:text="@string/calendar"
                     android:textStyle="bold"
                     android:textAlignment="center"/>
             </LinearLayout>
@@ -147,12 +168,18 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/profile"/>
-
+                    android:src="@drawable/home"
+                    android:contentDescription="@string/todo" />
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
+                        android:text="@string/go"
+                        android:textColor="#FFFFFF"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="PROFILE"
+                    android:text="@string/home"
                     android:textStyle="bold"
                     android:textAlignment="center"/>
             </LinearLayout>
