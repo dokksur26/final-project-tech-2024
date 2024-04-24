@@ -6,9 +6,6 @@ import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -16,8 +13,8 @@ import java.time.YearMonth;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.TemporalAccessor;
 import java.util.ArrayList;
-import java.util.Calendar;
-public class calendarmain {
+
+public class CalendarMain {
     public class MainActivity extends AppCompatActivity implements CalendarAdapter.OnItemListener
     {
         private TextView monthYearText;
@@ -29,6 +26,7 @@ public class calendarmain {
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             EdgeToEdge.enable(this);
+            getSupportActionBar().setTitle("Activity 3");
             setContentView(R.layout.activity_main);
             initWidgets();
             selectedDate = LocalDate.now();
